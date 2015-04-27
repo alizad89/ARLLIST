@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F13AAE53-76A5-EC49-DCC2-21ED825AEC32" name="r2">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-25 19:02:48 UTC</createdTime>
+<generatorID>B48E4D58-3514-DAEE-4FC1-8651E45A77B1</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="r2_pid" id="DE2C120B-D900-7265-04F0-1C1C129DD4D5">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-25 19:02:48 UTC</createdTime>
+<generatorID>16A441AD-087E-0207-EEBC-E24BDF9C0DB2</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="list_id1" id="15F875A7-14EF-F272-FFFF-19BD1D5953BD">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-25 19:02:48 UTC</createdTime>
+<generatorID>C16CB969-088E-DED9-EE1B-CDBAA804FD43</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>2C116038-2669-A578-1F4D-55CB123291D4</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA4D68A8-ABA0-F6B2-7AD1-03EA4BCE3E06" referredColumn="2C116038-2669-A578-1F4D-55CB123291D4"/>
+</associations>
+</Column>
+<Column name="list_id2" id="08627D3F-1973-A520-AFEC-9A17A34D66C7">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-25 19:02:48 UTC</createdTime>
+<generatorID>ED16E0DC-3C99-E46C-1861-8F687C2E4783</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>2C116038-2669-A578-1F4D-55CB123291D4</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71626C60-01D7-5C74-5E24-96F2A1E9E1BA" referredColumn="2C116038-2669-A578-1F4D-55CB123291D4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2DB6E14D-A934-28A2-F722-2E1073D3CAAC" name="r2_PK">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-25 19:02:48 UTC</createdTime>
+<generatorID>E9FF19FC-CD11-F1FA-2961-39495F6E661F</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE2C120B-D900-7265-04F0-1C1C129DD4D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F6A93E9-984E-57DB-6419-1BFEA18A90C0" name="r2_nl_notification_list_FK">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-25 19:02:48 UTC</createdTime>
+<generatorID>3D389C81-085D-FBC6-48E3-BBD7238986FA</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15F875A7-14EF-F272-FFFF-19BD1D5953BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A7C1351-8511-69D7-6F60-7A6A957C20A3" name="r2_nl_notification_list_FKv1">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-25 19:02:48 UTC</createdTime>
+<generatorID>FD038E58-B8F1-4A69-E86E-3C1DD82DA62D</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08627D3F-1973-A520-AFEC-9A17A34D66C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

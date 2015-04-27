@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E66717E-439E-0398-D26B-A07CC84B6470" name="nl_notification_list">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-25 19:02:48 UTC</createdTime>
+<generatorID>59450330-6F88-BC78-1157-FFE89BB288D0</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="notification_list_id" id="2C116038-2669-A578-1F4D-55CB123291D4">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-25 19:02:48 UTC</createdTime>
+<generatorID>3DC77CB8-81D8-0540-8F3E-30FB50D22945</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="90757940-16C8-8136-8276-148CC40EE6B6">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-25 19:02:48 UTC</createdTime>
+<generatorID>5B536596-4390-FEC4-95D2-C63B0C4EF4F5</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="72A86EDC-B116-CDF1-7D52-68D913A9843A">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-25 19:02:48 UTC</createdTime>
+<generatorID>471216D1-8DE2-D6DC-E98E-963B7FCD938E</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="A410E1FE-EF3E-B69F-9F3B-30D4443F53A4">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-25 19:02:48 UTC</createdTime>
+<generatorID>70ADD455-0E02-5F62-C833-3352C16423A8</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ownership_division_code" id="D0AFE503-AB06-7E28-2EE8-9DCE29B1C02F">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-25 19:02:48 UTC</createdTime>
+<generatorID>2A40110D-9A3D-7DB8-3B39-B03CA8ED91B3</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="external_view_name" id="9CBF2F25-CEF5-D65C-43E7-FC62BA1833D2">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-25 19:02:48 UTC</createdTime>
+<generatorID>FAF5B32F-0A94-C568-BB2C-7B76CCD8058A</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_effective_date" id="F7D489E1-AE2F-CB3B-4773-9CFFF22E9602">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-25 19:02:48 UTC</createdTime>
+<generatorID>AABF6A9C-C851-86E9-EFE7-75F86E30D2B0</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3400CE47-DDDD-928A-0AEF-6B33319AFDC8" name="nl_notification_list_PK">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-25 19:02:48 UTC</createdTime>
+<generatorID>8A988B07-1BA1-16F8-4FE3-5BB902E5CB59</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C116038-2669-A578-1F4D-55CB123291D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

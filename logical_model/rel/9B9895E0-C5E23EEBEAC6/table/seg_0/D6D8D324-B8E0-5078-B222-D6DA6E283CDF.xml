@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6D8D324-B8E0-5078-B222-D6DA6E283CDF" name="nl_members">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-25 19:02:48 UTC</createdTime>
+<generatorID>94356D72-3F6E-20F2-7860-F6A83E50E7D4</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="member_id" id="D37E9E9B-0C9E-E1BB-AF8E-30B28F9D4C89">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-25 19:02:48 UTC</createdTime>
+<generatorID>C6527DB4-FC5E-D806-6ED4-C217D0108427</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="2A712441-D87F-BD6D-F1F9-C29A124E3CE6">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-25 19:02:48 UTC</createdTime>
+<generatorID>4F27E333-1CB5-6BAF-CAE7-55A34DF11726</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="0ACD5736-6D36-7C01-151F-914B8E2B4489">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-25 19:02:48 UTC</createdTime>
+<generatorID>9C440784-C862-E912-0742-5D3914EE2D3D</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6717A55A-930B-8F1A-91F4-0390628B4E6A" name="nl_members_PK">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-25 19:02:48 UTC</createdTime>
+<generatorID>585DCE5D-6BCC-72B0-747F-0C07940C6A3A</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D37E9E9B-0C9E-E1BB-AF8E-30B28F9D4C89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

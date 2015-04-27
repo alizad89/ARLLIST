@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="C172D069-5990-31B4-1A63-9A92039F5EA0" name="nl_documents" seqName="seg_0"/>
+   <object objectType="Entity" objectID="94356D72-3F6E-20F2-7860-F6A83E50E7D4" name="nl_members" seqName="seg_0"/>
+   <object objectType="Entity" objectID="59450330-6F88-BC78-1157-FFE89BB288D0" name="nl_notification_list" seqName="seg_0"/>
+   <object objectType="Entity" objectID="4F7B5283-91AB-59F6-3BA3-B65F54EF7A8D" name="r1" seqName="seg_0"/>
+   <object objectType="Entity" objectID="B48E4D58-3514-DAEE-4FC1-8651E45A77B1" name="r2" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C5ACE9BB-26FD-860E-19FB-BFFC340CF9EB" name="Relation_2" seqName="seg_0"/>
+   <object objectType="Relation" objectID="F89A258E-8320-1484-6A29-90739C1CC8BD" name="Relation_3" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3D389C81-085D-FBC6-48E3-BBD7238986FA" name="Relation_4" seqName="seg_0"/>
+   <object objectType="Relation" objectID="FD038E58-B8F1-4A69-E86E-3C1DD82DA62D" name="Relation_5" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

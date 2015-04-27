@@ -1,0 +1,93 @@
+DROP SEQUENCE nl_documents_seq ; 
+create sequence nl_documents_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER nl_documents_PK_trig 
+; 
+
+create or replace trigger nl_documents_PK_trig 
+before insert on nl_documents
+for each row 
+begin 
+select nl_documents_seq.nextval into :new.document_id from dual; 
+end; 
+/
+
+DROP SEQUENCE nl_members_seq ; 
+create sequence nl_members_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER nl_members_PK_trig 
+; 
+
+create or replace trigger nl_members_PK_trig 
+before insert on nl_members
+for each row 
+begin 
+select nl_members_seq.nextval into :new.member_id from dual; 
+end; 
+/
+
+DROP SEQUENCE nl_notification_list_seq ; 
+create sequence nl_notification_list_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER nl_notification_list_PK_trig 
+; 
+
+create or replace trigger nl_notification_list_PK_trig 
+before insert on nl_notification_list
+for each row 
+begin 
+select nl_notification_list_seq.nextval into :new.notification_list_id from dual; 
+end; 
+/
+
+DROP SEQUENCE r1_seq ; 
+create sequence r1_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER r1_PK_trig 
+; 
+
+create or replace trigger r1_PK_trig 
+before insert on r1
+for each row 
+begin 
+select r1_seq.nextval into :new.r1_pid from dual; 
+end; 
+/
+
+DROP SEQUENCE r2_seq ; 
+create sequence r2_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER r2_PK_trig 
+; 
+
+create or replace trigger r2_PK_trig 
+before insert on r2
+for each row 
+begin 
+select r2_seq.nextval into :new.r2_pid from dual; 
+end; 
+/
+
+DROP INDEX member_id_FK_0 ;
+CREATE INDEX member_id_FK_0 ON r1(member_id) ;
+DROP INDEX list_id_FK_1 ;
+CREATE INDEX list_id_FK_1 ON r1(list_id) ;
+DROP INDEX list_id1_FK_2 ;
+CREATE INDEX list_id1_FK_2 ON r2(list_id1) ;
+DROP INDEX list_id2_FK_3 ;
+CREATE INDEX list_id2_FK_3 ON r2(list_id2) ;
