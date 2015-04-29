@@ -5,8 +5,11 @@
    <object objectType="Entity" objectID="59450330-6F88-BC78-1157-FFE89BB288D0" name="nl_notification_list" seqName="seg_0"/>
    <object objectType="Entity" objectID="4F7B5283-91AB-59F6-3BA3-B65F54EF7A8D" name="r1" seqName="seg_0"/>
    <object objectType="Entity" objectID="B48E4D58-3514-DAEE-4FC1-8651E45A77B1" name="r2" seqName="seg_0"/>
+   <object objectType="Entity" objectID="CD1F1617-524C-3B18-78A8-A1DF465ADE86" name="r3" seqName="seg_0"/>
    <object objectType="Relation" objectID="C5ACE9BB-26FD-860E-19FB-BFFC340CF9EB" name="Relation_2" seqName="seg_0"/>
    <object objectType="Relation" objectID="F89A258E-8320-1484-6A29-90739C1CC8BD" name="Relation_3" seqName="seg_0"/>
    <object objectType="Relation" objectID="3D389C81-085D-FBC6-48E3-BBD7238986FA" name="Relation_4" seqName="seg_0"/>
    <object objectType="Relation" objectID="FD038E58-B8F1-4A69-E86E-3C1DD82DA62D" name="Relation_5" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3D5E1E8E-A221-6736-5958-6B7A26EF69ED" name="Relation_6" seqName="seg_0"/>
+   <object objectType="Relation" objectID="80819B4B-A1E1-684E-380A-7C6A16F7ECCE" name="Relation_8" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>

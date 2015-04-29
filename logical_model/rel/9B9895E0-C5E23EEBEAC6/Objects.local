@@ -1,12 +1,12 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
-   <object objectType="Table" objectID="A43C0349-A848-CCD2-D3B0-6AE2337E1E92" name="nl_documents" seqName="seg_0"/>
    <object objectType="Table" objectID="D6D8D324-B8E0-5078-B222-D6DA6E283CDF" name="nl_members" seqName="seg_0"/>
    <object objectType="Table" objectID="1E66717E-439E-0398-D26B-A07CC84B6470" name="nl_notification_list" seqName="seg_0"/>
-   <object objectType="Table" objectID="527DC920-78A7-AA95-F487-5E006DBC47F7" name="r1" seqName="seg_0"/>
    <object objectType="Table" objectID="F13AAE53-76A5-EC49-DCC2-21ED825AEC32" name="r2" seqName="seg_0"/>
+   <object objectType="Table" objectID="A43C0349-A848-CCD2-D3B0-6AE2337E1E92" name="nl_documents" seqName="seg_0"/>
+   <object objectType="Table" objectID="527DC920-78A7-AA95-F487-5E006DBC47F7" name="r1" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="8693345B-7EC5-29B7-A6B0-A5185210EAD5" name="r1_nl_members_FK" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="BE30F72C-8B7F-881D-115F-E770E14BE30E" name="r1_nl_notification_list_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="AA4D68A8-ABA0-F6B2-7AD1-03EA4BCE3E06" name="r2_nl_notification_list_FK" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="71626C60-01D7-5C74-5E24-96F2A1E9E1BA" name="r2_nl_notification_list_FKv1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="BE30F72C-8B7F-881D-115F-E770E14BE30E" name="r1_nl_notification_list_FK" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>
