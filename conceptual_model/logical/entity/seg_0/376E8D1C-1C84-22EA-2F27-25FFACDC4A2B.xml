@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="376E8D1C-1C84-22EA-2F27-25FFACDC4A2B" name="nl_members">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-29 15:51:24 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="member_id" id="3A06ADDD-45A1-07FF-EE36-8E657171AAC2">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-29 15:51:24 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<importedID>C6527DB4-FC5E-D806-6ED4-C217D0108427</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="name" id="F0FE73D0-87CB-1230-F180-2E3B2ABCBC82">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-29 15:51:24 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<importedID>4F27E333-1CB5-6BAF-CAE7-55A34DF11726</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="type" id="2FBF927D-4FC2-E921-F232-2E0406611EA6">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-29 15:51:24 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<importedID>9C440784-C862-E912-0742-5D3914EE2D3D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="39CAA05B-9FA0-6B39-1010-B05DD04FC85E" name="{entity} PK">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-29 15:51:24 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3A06ADDD-45A1-07FF-EE36-8E657171AAC2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

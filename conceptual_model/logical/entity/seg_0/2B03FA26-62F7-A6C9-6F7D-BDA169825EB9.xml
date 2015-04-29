@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B03FA26-62F7-A6C9-6F7D-BDA169825EB9" name="nl_notification_list">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-29 15:51:34 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="notification_list_id" id="AA4224AB-39F7-5328-71FA-4D90C20E5178">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-29 15:51:34 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<importedID>3DC77CB8-81D8-0540-8F3E-30FB50D22945</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="status" id="12723FAA-521E-F975-0DB6-E04394C4AD0A">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-29 15:51:34 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<importedID>5B536596-4390-FEC4-95D2-C63B0C4EF4F5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="name" id="F1913B44-008E-BC25-45FF-73E2EEE59783">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-29 15:51:34 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<importedID>471216D1-8DE2-D6DC-E98E-963B7FCD938E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="description" id="85ECE26B-9CEC-895E-040A-1746142C39FE">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-29 15:51:34 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<importedID>70ADD455-0E02-5F62-C833-3352C16423A8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="ownership_division_code" id="CBCD7E79-5CFA-03F0-C277-C04B34A69AFB">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-29 15:51:34 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<importedID>2A40110D-9A3D-7DB8-3B39-B03CA8ED91B3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="external_view_name" id="47776C72-4CE1-EE91-2FCC-F153F07271B2">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-29 15:51:34 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<importedID>FAF5B32F-0A94-C568-BB2C-7B76CCD8058A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="status_effective_date" id="AA470FDB-D3AC-2ECB-614C-B0759B5085D8">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-29 15:51:34 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<importedID>AABF6A9C-C851-86E9-EFE7-75F86E30D2B0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D564E8AA-ADE2-F494-16CD-F8CB0C4826A6" name="{entity} PK">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-29 15:51:34 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AA4224AB-39F7-5328-71FA-4D90C20E5178</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

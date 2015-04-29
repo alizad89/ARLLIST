@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9F9F7863-0900-A47F-0C2D-399712E9032D" name="nl_documents">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-29 15:51:28 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="document_id" id="BA280995-864E-CD99-431C-FC67F06CFB38">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-29 15:51:28 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<importedID>3AC2585C-579C-38F2-028B-533C9767C04C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="filename" id="2E540CC8-5EF3-16C6-EC54-7B0AA6E415FE">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-29 15:51:28 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<importedID>8C0E5384-E314-0303-DB9A-F5346061338E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="file_data" id="7332FC5D-0B2A-17B1-1870-738172DA8E01">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-29 15:51:28 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<importedID>34938275-AE7B-8D41-2EFD-47A08D45049A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+</Attribute>
+<Attribute name="file_comments" id="F691F6D3-F587-437A-C7E5-69E60679ED98">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-29 15:51:28 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<importedID>BC66D8F9-0281-B838-5DE7-B5638792C728</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="tags" id="A6E373AF-5276-EC37-BA6F-1CC8315323E0">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-29 15:51:28 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<importedID>D2978CB3-4025-B761-E7F6-03E5151FED42</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="21805A64-B12A-7AAF-069F-8F9EC0565F61" name="{entity} PK">
+<createdBy>jae</createdBy>
+<createdTime>2015-04-29 15:51:28 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BA280995-864E-CD99-431C-FC67F06CFB38</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

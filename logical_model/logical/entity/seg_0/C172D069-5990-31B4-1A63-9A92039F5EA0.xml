@@ -39,32 +39,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>4000</dataTypeSize>
 </Attribute>
-<Attribute name="file_nametype" id="17A2CED6-4D5E-0060-786F-DD984A089BCF">
-<createdBy>jae</createdBy>
-<createdTime>2015-04-25 18:55:01 UTC</createdTime>
-<ownerDesignName>logical_model</ownerDesignName>
-<engineerTo>
-<item key="9B9895E0-253F-102D-61DD-C5E23EEBEAC6" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>512</dataTypeSize>
-</Attribute>
-<Attribute name="file_charset" id="C0427764-B038-4CE0-0D15-EBC73D7CD9C9">
-<createdBy>jae</createdBy>
-<createdTime>2015-04-25 18:55:08 UTC</createdTime>
-<ownerDesignName>logical_model</ownerDesignName>
-<engineerTo>
-<item key="9B9895E0-253F-102D-61DD-C5E23EEBEAC6" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>512</dataTypeSize>
-</Attribute>
 <Attribute name="file_data" id="34938275-AE7B-8D41-2EFD-47A08D45049A">
 <createdBy>jae</createdBy>
 <createdTime>2015-04-25 18:55:16 UTC</createdTime>
@@ -109,8 +83,9 @@
 <createdBy>jae</createdBy>
 <createdTime>2015-04-25 18:54:47 UTC</createdTime>
 <ownerDesignName>logical_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9B9895E0-253F-102D-61DD-C5E23EEBEAC6" value="true"/>
+<item key="9B9895E0-253F-102D-61DD-C5E23EEBEAC6" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

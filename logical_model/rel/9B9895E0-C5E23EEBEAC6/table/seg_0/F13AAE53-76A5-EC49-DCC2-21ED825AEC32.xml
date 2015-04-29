@@ -17,7 +17,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="list_id1" id="15F875A7-14EF-F272-FFFF-19BD1D5953BD">
+<Column name="nl_notification_list_notification_list_id" id="15F875A7-14EF-F272-FFFF-19BD1D5953BD">
 <createdBy>jae</createdBy>
 <createdTime>2015-04-25 19:02:48 UTC</createdTime>
 <generatorID>C16CB969-088E-DED9-EE1B-CDBAA804FD43</generatorID>
@@ -33,7 +33,7 @@
 <colAssociation fkAssociation="AA4D68A8-ABA0-F6B2-7AD1-03EA4BCE3E06" referredColumn="2C116038-2669-A578-1F4D-55CB123291D4"/>
 </associations>
 </Column>
-<Column name="list_id2" id="08627D3F-1973-A520-AFEC-9A17A34D66C7">
+<Column name="nl_notification_list_notification_list_id1" id="08627D3F-1973-A520-AFEC-9A17A34D66C7">
 <createdBy>jae</createdBy>
 <createdTime>2015-04-25 19:02:48 UTC</createdTime>
 <generatorID>ED16E0DC-3C99-E46C-1861-8F687C2E4783</generatorID>
@@ -74,7 +74,7 @@
 <colUsage columnID="15F875A7-14EF-F272-FFFF-19BD1D5953BD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6A7C1351-8511-69D7-6F60-7A6A957C20A3" name="r2_nl_notification_list_FKv1">
+<ind_PK_UK id="6A7C1351-8511-69D7-6F60-7A6A957C20A3" name="r2_nl_notification_list_FKv2">
 <createdBy>jae</createdBy>
 <createdTime>2015-04-25 19:02:48 UTC</createdTime>
 <generatorID>FD038E58-B8F1-4A69-E86E-3C1DD82DA62D</generatorID>

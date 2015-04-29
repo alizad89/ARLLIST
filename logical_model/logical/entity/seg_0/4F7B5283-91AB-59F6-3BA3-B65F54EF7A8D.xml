@@ -60,8 +60,9 @@
 <createdBy>jae</createdBy>
 <createdTime>2015-04-25 18:58:03 UTC</createdTime>
 <ownerDesignName>logical_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9B9895E0-253F-102D-61DD-C5E23EEBEAC6" value="true"/>
+<item key="9B9895E0-253F-102D-61DD-C5E23EEBEAC6" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
